@@ -16,7 +16,7 @@
 	- `Chaldea.Components.Extensions` 命名空间
 	- `Chaldea.Components.Utils` 命名空间
 
-## v1.9.5 更新内容
+## v2.0.0 更新内容
 
-- 首次发布，为确保一致性，故版本号从 v1.9.5 开始
+- 首次发布，为确保一致性，故版本号从 v2.0.0 开始
 - [更新历史](https://github.com/YukariMikaduki/Chaldea.Components.Windows/blob/main/CHANGELOG.md)

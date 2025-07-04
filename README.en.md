@@ -16,7 +16,7 @@ This module is a collection of utilities integrated to facilitate daily developm
 	- `Chaldea.Components.Extensions` namespace
 	- `Chaldea.Components.Utils` namespace
 
-## v1.9.5 Update Details
+## v2.0.0 Update Details
 
-- Initial release, with version starting at v1.9.5 to maintain consistency.
+- Initial release, with version starting at v2.0.0 to maintain consistency.
 - [Changelog](https://github.com/YukariMikaduki/Chaldea.Components.Windows/blob/main/CHANGELOG.en.md)
