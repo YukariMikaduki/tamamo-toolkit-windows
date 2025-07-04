@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0-windows;net6.0-windows</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <!--强制复制nuget包中的DLL到生成目录-->
+    <!--<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>-->
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RootNamespace>Chaldea.Components</RootNamespace>
+  </PropertyGroup>
+
+  <!--发行版程序集信息-->
+  <PropertyGroup>
+    <Title>$(AssemblyName)</Title>
+    <Authors>Yukari Mikaduki</Authors>
+    <Copyright>© Chaldea Security Organization. All rights reserved.</Copyright>
+    <AssemblyVersion>1.9.5.9316</AssemblyVersion>
+    <FileVersion>1.9.5.9316</FileVersion>
+    <AssemblyInfoVersion>$(AssemblyVersion)</AssemblyInfoVersion>
+    <Version>1.9.5</Version>
+    <Description>A collection of utilities integrated to facilitate daily development work.</Description>
+    <PackageReadmeFile>README.en.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/YukariMikaduki/Chaldea.Components.Windows</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YukariMikaduki/Chaldea.Components.Windows</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <ShouldCreateLogs>False</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>False</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>False</UpdateAssemblyInfoVersion>
+    <AssemblyVersionSettings>IncrementOnDemandWithResetOnIncrease.IncrementOnDemandWithResetOnIncrease.IncrementOnDemandWithResetOnIncrease.DeltaDayStamp</AssemblyVersionSettings>
+    <AssemblyFileVersionSettings>IncrementOnDemandWithResetOnIncrease.IncrementOnDemandWithResetOnIncrease.IncrementOnDemandWithResetOnIncrease.DeltaDayStamp</AssemblyFileVersionSettings>
+    <UpdatePackageVersion>False</UpdatePackageVersion>
+    <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
+    <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chaldea.Components" Version="1.9.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.en.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,2 +1,22 @@
 # Chaldea.Components.Windows
-æ–¹ä¾¿æ—¥å¸¸å¼€å‘å·¥ä½œè€Œæ•´åˆçš„å·¥å…·é›†
+
+[![Platforms](https://img.shields.io/badge/platform-net6.0--windows_|_net8.0--windows-blue.svg?logo=githubpages)](https://github.com/YukariMikaduki/Chaldea.Components.Windows)
+[![NuGet Package](https://img.shields.io/nuget/v/Chaldea.Components.Windows.svg?logo=nuget)](https://www.nuget.org/packages/Chaldea.Components.Windows)
+[![License](https://img.shields.io/github/license/YukariMikaduki/Chaldea.Components.Windows.svg?logo=github)](https://github.com/YukariMikaduki/Chaldea.Components.Windows/blob/main/LICENSE)
+
+- [ÏîÄ¿URL](https://github.com/YukariMikaduki/Chaldea.Components.Windows)
+- [Nuget°ü](https://www.nuget.org/packages/Chaldea.Components.Windows)
+
+## ×ÔÊö  
+
+´ËÄ£¿éÊÇÎªÁË·½±ãÈÕ³£¿ª·¢¹¤×÷¶øÕûºÏµÄ¹¤¾ß¼¯£¬°üÀ¨µ«²»ÏŞÓÚ£º
+- ³£ÓÃµÄµ¼³öº¯Êı
+	- `Chaldea.Components.DllImport` ÃüÃû¿Õ¼ä
+- ¸÷Àà¼ò»¯´úÂëµÄÀ©Õ¹·½·¨
+	- `Chaldea.Components.Extensions` ÃüÃû¿Õ¼ä
+	- `Chaldea.Components.Utils` ÃüÃû¿Õ¼ä
+
+## v1.9.5 ¸üĞÂÄÚÈİ
+
+- Ê×´Î·¢²¼£¬ÎªÈ·±£Ò»ÖÂĞÔ£¬¹Ê°æ±¾ºÅ´Ó v1.9.5 ¿ªÊ¼
+- [¸üĞÂÀúÊ·](https://github.com/YukariMikaduki/Chaldea.Components.Windows/blob/main/CHANGELOG.md)
