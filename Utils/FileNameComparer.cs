@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Chaldea.Components.Utils
+namespace TamamoToolkit.Utils
 {
     /// <summary>
     /// 文件名比较器，升序排列文件名字符串

@@ -4,7 +4,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Threading;
 using Application = System.Windows.Application;
 
-namespace Chaldea.Components.Extensions
+namespace TamamoToolkit.Extensions
 {
     /// <summary>
     /// <see cref="Bitmap"/> 扩展类
@@ -19,7 +19,7 @@ namespace Chaldea.Components.Extensions
         /// <returns></returns>
         public static BitmapSource ToBitmapSource(this Bitmap src)
         {
-            return ToBitmapSource(src, ImageFormat.Png);
+            return src.ToBitmapSource(ImageFormat.Png);
         }
 
         /// <summary>

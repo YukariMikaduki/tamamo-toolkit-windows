@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Chaldea.Components.DllImport
+namespace TamamoToolkit.DllImport
 {
     /// <summary>
     /// <see langword="User32.dll"/> 互操作类

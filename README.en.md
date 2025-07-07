@@ -1,22 +1,27 @@
-# Chaldea.Components.Windows
+# TamamoToolkit.Windows
 
-[![Platforms](https://img.shields.io/badge/platform-net6.0--windows_|_net8.0--windows-blue.svg?logo=githubpages)](https://github.com/YukariMikaduki/Chaldea.Components.Windows)
-[![NuGet Package](https://img.shields.io/nuget/v/Chaldea.Components.Windows.svg?logo=nuget)](https://www.nuget.org/packages/Chaldea.Components.Windows)
-[![License](https://img.shields.io/github/license/YukariMikaduki/Chaldea.Components.Windows.svg?logo=github)](https://github.com/YukariMikaduki/Chaldea.Components.Windows/blob/main/LICENSE)
+[![Platforms](https://img.shields.io/badge/platform-net6.0--windows_|_net8.0--windows-blue.svg?logo=githubpages)](https://github.com/YukariMikaduki/tamamo-toolkit-windows)
+[![NuGet Package](https://img.shields.io/nuget/v/TamamoToolkit.Windows.svg?logo=nuget)](https://www.nuget.org/packages/TamamoToolkit.Windows)
+[![License](https://img.shields.io/github/license/YukariMikaduki/tamamo-toolkit-windows.svg?logo=github)](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/LICENSE)
 
-- [Project URL](https://github.com/YukariMikaduki/Chaldea.Components.Windows)
-- [NuGet Package](https://www.nuget.org/packages/Chaldea.Components.Windows)
+- [Project URL](https://github.com/YukariMikaduki/tamamo-toolkit-windows)
+- [NuGet Package](https://www.nuget.org/packages/TamamoToolkit.Windows)
 
 ## README  
 
 This module is a collection of utilities integrated to facilitate daily development work, including but not limited to:
 - Common used DllImport functions
-	- `Chaldea.Components.DllImport` namespace
+	- `TamamoToolkit.DllImport` namespace
 - Various extension methods for code simplification
-	- `Chaldea.Components.Extensions` namespace
-	- `Chaldea.Components.Utils` namespace
+	- `TamamoToolkit.Extensions` namespace
+	- `TamamoToolkit.Utils` namespace
 
-## v2.0.0 Update Details
+## v2.0.1 Update Details
 
-- Initial release, with version starting at v2.0.0 to maintain consistency.
-- [Changelog](https://github.com/YukariMikaduki/Chaldea.Components.Windows/blob/main/CHANGELOG.en.md)
+- Project officially renamed to **TamamoToolkit**, and all namespaces have been updated accordingly.	
+	- Chaldea.Components -> TamamoToolkit
+	- Chaldea.Components.DllImport -> TamamoToolkit.DllImport
+	- Chaldea.Components.Extensions -> TamamoToolkit.Extensions
+	- Chaldea.Components.Utils -> TamamoToolkit.Utils
+
+## [More Changelog](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.en.md)

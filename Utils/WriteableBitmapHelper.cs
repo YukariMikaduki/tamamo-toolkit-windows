@@ -1,7 +1,7 @@
 ﻿using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace Chaldea.Components.Utils
+namespace TamamoToolkit.Utils
 {
     /// <summary>
     /// <see cref="WriteableBitmap"/> 帮助类

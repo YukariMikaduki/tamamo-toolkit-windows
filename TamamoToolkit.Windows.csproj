@@ -11,24 +11,24 @@
     <!--强制复制nuget包中的DLL到生成目录-->
     <!--<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>-->
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <RootNamespace>Chaldea.Components</RootNamespace>
+    <RootNamespace>TamamoToolkit</RootNamespace> 
   </PropertyGroup>
 
   <!--发行版程序集信息-->
   <PropertyGroup>
     <Title>$(AssemblyName)</Title>
     <Authors>Yukari Mikaduki</Authors>
-    <Copyright>© Chaldea Security Organization. All rights reserved.</Copyright>
-    <AssemblyVersion>2.0.0.9316</AssemblyVersion>
-    <FileVersion>2.0.0.9316</FileVersion>
+    <Copyright>Copyright (c) 2025 Yukari Mikaduki. All rights reserved.</Copyright>
+    <AssemblyVersion>2.0.1.9319</AssemblyVersion>
+    <FileVersion>2.0.1.9319</FileVersion>
     <AssemblyInfoVersion>$(AssemblyVersion)</AssemblyInfoVersion>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Description>A collection of utilities integrated to facilitate daily development work.</Description>
     <PackageReadmeFile>README.en.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/YukariMikaduki/Chaldea.Components.Windows</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/YukariMikaduki/Chaldea.Components.Windows</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/YukariMikaduki/tamamo-toolkit-windows</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YukariMikaduki/tamamo-toolkit-windows</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -43,10 +43,6 @@
     <AssemblyInfoVersionType>SettingsVersion</AssemblyInfoVersionType>
     <InheritWinAppVersionFrom>None</InheritWinAppVersionFrom>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Chaldea.Components" Version="2.0.0" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="README.en.md">
@@ -64,6 +60,10 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TamamoToolkit" Version="2.0.1" />
   </ItemGroup>
 
 </Project>

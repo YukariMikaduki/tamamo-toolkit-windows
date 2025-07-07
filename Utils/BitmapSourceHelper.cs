@@ -1,8 +1,8 @@
-﻿using Chaldea.Components.Extensions;
-using System.Windows.Media;
+﻿using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using TamamoToolkit.Extensions;
 
-namespace Chaldea.Components.Utils
+namespace TamamoToolkit.Utils
 {
     /// <summary>
     /// <see cref="BitmapSource"/> 帮助类
