@@ -16,8 +16,8 @@ This module is a collection of utilities integrated to facilitate daily developm
 	- `TamamoToolkit.Extensions` namespace
 	- `TamamoToolkit.Utils` namespace
 
-## v2.1.0 Update Details
+## v2.1.1 Update Details
 
-- Added extension methods to save BitmapSource as PNG, JPG, or BMP.
+- Fixed a bug: This bug would cause pixel row tearing in WriteableBitmap when updating with an array if the original image stride was not a multiple of 4.
 
 ## [More Changelog](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.en.md)

@@ -1,4 +1,8 @@
-﻿## v2.1.0 Update Details
+﻿## v2.1.1 Update Details
+
+- Fixed a bug: This bug would cause pixel row tearing in WriteableBitmap when updating with an array if the original image stride was not a multiple of 4.
+
+## v2.1.0 Update Details
 
 - Added extension methods to save BitmapSource as PNG, JPG, or BMP.
 

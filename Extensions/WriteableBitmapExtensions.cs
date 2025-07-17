@@ -29,8 +29,11 @@ namespace TamamoToolkit.Extensions
         {
             try
             {
-                byte[] bytes = new byte[bitmap.PixelWidth * bitmap.PixelHeight * bitmap.Format.BitsPerPixel / 8];
-                Buffer.BlockCopy(source, 0, bytes, 0, Math.Min(bytes.Length, Buffer.ByteLength(source)));
+                int width = bitmap.PixelWidth * (bitmap.Format.BitsPerPixel / 8);
+                //位图实际行宽（亦称跨距或步长） = 图像像素宽度 * 每像素字节数，并补齐为4的倍数
+                int readWidth = width % 4 == 0 ? width : width + 4 - (width % 4);
+                byte[] bytes = new byte[readWidth * bitmap.PixelHeight];
+                _ = Parallel.For(0, bitmap.PixelHeight, i => Buffer.BlockCopy(source, width * i, bytes, readWidth * i, width));
                 bitmap.Lock();
                 Marshal.Copy(bytes, 0, bitmap.BackBuffer, bytes.Length);
                 bitmap.AddDirtyRect(new Int32Rect(0, 0, bitmap.PixelWidth, bitmap.PixelHeight));
