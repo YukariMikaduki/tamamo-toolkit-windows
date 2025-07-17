@@ -1,4 +1,8 @@
-﻿## v2.0.1 Update Details
+﻿## v2.1.0 Update Details
+
+- Added extension methods to save BitmapSource as PNG, JPG, or BMP.
+
+## v2.0.1 Update Details
 
 - Project officially renamed to **TamamoToolkit**, and all namespaces have been updated accordingly.	
 	- Chaldea.Components -> TamamoToolkit

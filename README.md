@@ -16,12 +16,8 @@
 	- `TamamoToolkit.Extensions` 命名空间
 	- `TamamoToolkit.Utils` 命名空间
 
-## v2.0.1 更新内容
+## v2.1.0 更新内容
 
-- 项目正式更名为 **TamamoToolkit.Windows**，所有命名空间均已调整
-	- Chaldea.Components -> TamamoToolkit
-	- Chaldea.Components.DllImport -> TamamoToolkit.DllImport
-	- Chaldea.Components.Extensions -> TamamoToolkit.Extensions
-	- Chaldea.Components.Utils -> TamamoToolkit.Utils
+- 添加将 BitmapSource 保存为PNG、JPG或BMP的扩展方法
 
 ## [更多更新历史](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.md)

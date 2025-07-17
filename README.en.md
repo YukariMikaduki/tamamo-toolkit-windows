@@ -16,12 +16,8 @@ This module is a collection of utilities integrated to facilitate daily developm
 	- `TamamoToolkit.Extensions` namespace
 	- `TamamoToolkit.Utils` namespace
 
-## v2.0.1 Update Details
+## v2.1.0 Update Details
 
-- Project officially renamed to **TamamoToolkit**, and all namespaces have been updated accordingly.	
-	- Chaldea.Components -> TamamoToolkit
-	- Chaldea.Components.DllImport -> TamamoToolkit.DllImport
-	- Chaldea.Components.Extensions -> TamamoToolkit.Extensions
-	- Chaldea.Components.Utils -> TamamoToolkit.Utils
+- Added extension methods to save BitmapSource as PNG, JPG, or BMP.
 
 ## [More Changelog](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.en.md)
