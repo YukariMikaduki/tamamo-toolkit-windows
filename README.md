@@ -16,8 +16,8 @@
 	- `TamamoToolkit.Extensions` 命名空间
 	- `TamamoToolkit.Utils` 命名空间
 
-## v2.1.1 更新内容
+## v2.1.2 更新内容
 
-- 修复了一个BUG：该BUG曾导致用数组更新 WriteableBitmap 时，若图像原始步长不为4的倍数，图像行撕裂的问题
+- 修复了一个BUG：该BUG曾导致将 BitmapSource 保存为PNG、JPG或BMP时，偶发保存路径拒绝访问的问题
 
 ## [更多更新历史](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.md)

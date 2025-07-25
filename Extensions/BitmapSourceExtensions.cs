@@ -18,13 +18,9 @@ namespace TamamoToolkit.Extensions
         {
             string? dir = Path.GetDirectoryName(filePath);
             string extension = Path.GetExtension(filePath).ToLower();
-            if (!string.IsNullOrEmpty(extension) && dir is string str)
+            if (dir is string str && !Directory.Exists(str))
             {
-                filePath = str;
-            }
-            if (!Directory.Exists(filePath))
-            {
-                _ = Directory.CreateDirectory(filePath);
+                _ = Directory.CreateDirectory(str);
             }
             BitmapEncoder encoder = extension switch
             {

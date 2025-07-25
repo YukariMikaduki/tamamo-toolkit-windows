@@ -16,8 +16,8 @@ This module is a collection of utilities integrated to facilitate daily developm
 	- `TamamoToolkit.Extensions` namespace
 	- `TamamoToolkit.Utils` namespace
 
-## v2.1.1 Update Details
+## v2.1.2 Update Details
 
-- Fixed a bug: This bug would cause pixel row tearing in WriteableBitmap when updating with an array if the original image stride was not a multiple of 4.
+- Fixed a bug: This bug occasionally caused "Access Denied" errors when saving paths while saving a BitmapSource as PNG, JPG, or BMP.
 
 ## [More Changelog](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.en.md)
