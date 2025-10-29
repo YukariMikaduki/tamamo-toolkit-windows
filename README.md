@@ -16,8 +16,8 @@
 	- `TamamoToolkit.Extensions` 命名空间
 	- `TamamoToolkit.Utils` 命名空间
 
-## v2.1.2 更新内容
+## v2.1.3 更新内容
 
-- 修复了一个BUG：该BUG曾导致将 BitmapSource 保存为PNG、JPG或BMP时，偶发保存路径拒绝访问的问题
+- 添加一个扩展方法：获取 BitmapSource 的像素数组
 
 ## [更多更新历史](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.md)

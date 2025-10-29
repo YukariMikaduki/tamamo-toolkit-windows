@@ -1,4 +1,8 @@
-﻿## v2.1.2 Update Details
+﻿## v2.1.3 Update Details
+
+- Added an extension method: Get pixel array from BitmapSource.
+
+## v2.1.2 Update Details
 
 - Fixed a bug: This bug occasionally caused "Access Denied" errors when saving paths while saving a BitmapSource as PNG, JPG, or BMP.
 

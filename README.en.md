@@ -16,8 +16,8 @@ This module is a collection of utilities integrated to facilitate daily developm
 	- `TamamoToolkit.Extensions` namespace
 	- `TamamoToolkit.Utils` namespace
 
-## v2.1.2 Update Details
+## v2.1.3 Update Details
 
-- Fixed a bug: This bug occasionally caused "Access Denied" errors when saving paths while saving a BitmapSource as PNG, JPG, or BMP.
+- Added an extension method: Get pixel array from BitmapSource.
 
 ## [More Changelog](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.en.md)
