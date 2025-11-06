@@ -1,4 +1,8 @@
-﻿## v2.1.3 更新内容
+﻿## v2.1.4 更新内容
+
+- [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) 包的依赖升级为2.1.0版本
+
+## v2.1.3 更新内容
 
 - 添加一个扩展方法：获取 BitmapSource 的像素数组
 

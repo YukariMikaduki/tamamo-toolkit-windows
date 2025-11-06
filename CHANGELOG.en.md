@@ -1,4 +1,8 @@
-﻿## v2.1.3 Update Details
+﻿## v2.1.4 Update Details
+
+- Upgraded the dependency of the [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) package to version 2.1.0
+
+## v2.1.3 Update Details
 
 - Added an extension method: Get pixel array from BitmapSource.
 
