@@ -1,4 +1,8 @@
-﻿## v2.1.4 更新内容
+﻿## v2.2.0 更新内容
+
+- [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) 包的依赖升级为2.2.0版本
+
+## v2.1.4 更新内容
 
 - [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) 包的依赖升级为2.1.0版本
 

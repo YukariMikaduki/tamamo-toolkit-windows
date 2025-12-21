@@ -16,8 +16,8 @@ This module is a collection of utilities integrated to facilitate daily developm
 	- `TamamoToolkit.Extensions` namespace
 	- `TamamoToolkit.Utils` namespace
 
-## v2.1.4 Update Details
+## v2.2.0 Update Details
 
-- Upgraded the dependency of the [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) package to version 2.1.0
+- Upgraded the dependency of the [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) package to version 2.2.0
 
 ## [More Changelog](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.en.md)

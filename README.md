@@ -16,8 +16,8 @@
 	- `TamamoToolkit.Extensions` 命名空间
 	- `TamamoToolkit.Utils` 命名空间
 
-## v2.1.4 更新内容
+## v2.2.0 更新内容
 
-- [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) 包的依赖升级为2.1.0版本
+- [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) 包的依赖升级为2.2.0版本
 
 ## [更多更新历史](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.md)
