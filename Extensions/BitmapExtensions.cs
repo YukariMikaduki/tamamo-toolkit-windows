@@ -11,42 +11,43 @@ namespace TamamoToolkit.Extensions
     /// </summary>
     public static class BitmapExtensions
     {
-        /// <summary>
-        /// 将 <see cref="Bitmap"/> 转换为 <see cref="BitmapSource"/>
-        /// </summary>
-        /// <param name="src"></param>
-        /// <remarks>参见 <see href="http://www.codeproject.com/Articles/104929/Bitmap-to-BitmapSource"/></remarks>
-        /// <returns></returns>
-        public static BitmapSource ToBitmapSource(this Bitmap src)
+        extension(Bitmap src)
         {
-            return src.ToBitmapSource(ImageFormat.Png);
-        }
-
-        /// <summary>
-        /// 将 <see cref="Bitmap"/> 转换为 <see cref="BitmapSource"/>
-        /// </summary>
-        /// <param name="src"></param>
-        /// <param name="format">图片格式</param>
-        /// <remarks>参见 <see href="http://www.codeproject.com/Articles/104929/Bitmap-to-BitmapSource"/></remarks>
-        /// <returns></returns>
-        public static BitmapSource ToBitmapSource(this Bitmap src, ImageFormat format)
-        {
-            if (Application.Current?.Dispatcher is null)
+            /// <summary>
+            /// 将 <see cref="Bitmap"/> 转换为 <see cref="BitmapSource"/>
+            /// </summary>
+            /// <remarks>参见 <see href="http://www.codeproject.com/Articles/104929/Bitmap-to-BitmapSource"/></remarks>
+            /// <returns></returns>
+            public BitmapSource ToBitmapSource()
             {
-                using var memoryStream = new MemoryStream();
-                src.Save(memoryStream, format);
-                return CreateBitmapSourceFromBitmap(memoryStream);
+                return src.ToBitmapSource(ImageFormat.Png);
             }
-            using (var memoryStream = new MemoryStream())
-            {
-                // 需要手动指定Image格式
-                src.Save(memoryStream, format);
-                _ = memoryStream.Seek(0, SeekOrigin.Begin);
 
-                // 确保在UI线程创建Bitmap
-                return IsInvokeRequired()
-                    ? (BitmapSource)Application.Current.Dispatcher.Invoke(CreateBitmapSourceFromBitmap, DispatcherPriority.Normal, memoryStream)
-                    : CreateBitmapSourceFromBitmap(memoryStream);
+            /// <summary>
+            /// 将 <see cref="Bitmap"/> 转换为 <see cref="BitmapSource"/>
+            /// </summary>
+            /// <param name="format">图片格式</param>
+            /// <remarks>参见 <see href="http://www.codeproject.com/Articles/104929/Bitmap-to-BitmapSource"/></remarks>
+            /// <returns></returns>
+            public BitmapSource ToBitmapSource(ImageFormat format)
+            {
+                if (Application.Current?.Dispatcher is null)
+                {
+                    using var memoryStream = new MemoryStream();
+                    src.Save(memoryStream, format);
+                    return CreateBitmapSourceFromBitmap(memoryStream);
+                }
+                using (var memoryStream = new MemoryStream())
+                {
+                    // 需要手动指定Image格式
+                    src.Save(memoryStream, format);
+                    _ = memoryStream.Seek(0, SeekOrigin.Begin);
+
+                    // 确保在UI线程创建Bitmap
+                    return IsInvokeRequired()
+                        ? (BitmapSource)Application.Current.Dispatcher.Invoke(CreateBitmapSourceFromBitmap, DispatcherPriority.Normal, memoryStream)
+                        : CreateBitmapSourceFromBitmap(memoryStream);
+                }
             }
         }
 
