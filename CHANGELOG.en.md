@@ -1,4 +1,4 @@
-﻿## v2.2.0 Update Details
+## v2.2.0 Update Details
 
 - Upgraded the dependency of the [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) package to version 2.2.0
 

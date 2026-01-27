@@ -4,20 +4,20 @@
 [![NuGet Package](https://img.shields.io/nuget/v/TamamoToolkit.Windows.svg?logo=nuget)](https://www.nuget.org/packages/TamamoToolkit.Windows)
 [![License](https://img.shields.io/github/license/YukariMikaduki/tamamo-toolkit-windows.svg?logo=github)](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/LICENSE)
 
-- [ÏîÄ¿URL](https://github.com/YukariMikaduki/tamamo-toolkit-windows)
-- [Nuget°ü](https://www.nuget.org/packages/TamamoToolkit.Windows)
+- [é¡¹ç›®URL](https://github.com/YukariMikaduki/tamamo-toolkit-windows)
+- [NugetåŒ…](https://www.nuget.org/packages/TamamoToolkit.Windows)
 
-## ×ÔÊö  
+## è‡ªè¿°  
 
-´ËÄ£¿éÊÇÎªÁË·½±ãÈÕ³£¿ª·¢¹¤×÷¶øÕûºÏµÄ¹¤¾ß¼¯£¬°üÀ¨µ«²»ÏŞÓÚ£º
-- ³£ÓÃµÄµ¼³öº¯Êı
-	- `TamamoToolkit.DllImport` ÃüÃû¿Õ¼ä
-- ¸÷Àà¼ò»¯´úÂëµÄÀ©Õ¹·½·¨
-	- `TamamoToolkit.Extensions` ÃüÃû¿Õ¼ä
-	- `TamamoToolkit.Utils` ÃüÃû¿Õ¼ä
+æ­¤æ¨¡å—æ˜¯ä¸ºäº†æ–¹ä¾¿æ—¥å¸¸å¼€å‘å·¥ä½œè€Œæ•´åˆçš„å·¥å…·é›†ï¼ŒåŒ…æ‹¬ä½†ä¸é™äºï¼š
+- å¸¸ç”¨çš„å¯¼å‡ºå‡½æ•°
+	- `TamamoToolkit.DllImport` å‘½åç©ºé—´
+- å„ç±»ç®€åŒ–ä»£ç çš„æ‰©å±•æ–¹æ³•
+	- `TamamoToolkit.Extensions` å‘½åç©ºé—´
+	- `TamamoToolkit.Utils` å‘½åç©ºé—´
 
-## v2.2.0 ¸üĞÂÄÚÈİ
+## v2.2.0 æ›´æ–°å†…å®¹
 
-- [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) °üµÄÒÀÀµÉı¼¶Îª2.2.0°æ±¾
+- [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) åŒ…çš„ä¾èµ–å‡çº§ä¸º2.2.0ç‰ˆæœ¬
 
-## [¸ü¶à¸üĞÂÀúÊ·](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.md)
+## [æ›´å¤šæ›´æ–°å†å²](https://github.com/YukariMikaduki/tamamo-toolkit-windows/blob/main/CHANGELOG.md)
