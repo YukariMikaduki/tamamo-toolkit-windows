@@ -1,3 +1,7 @@
+## v2.3.0 Update Details
+
+- Upgraded the dependency of the [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) package to version 2.3.0
+
 ## v2.2.0 Update Details
 
 - Upgraded the dependency of the [TamamoToolkit](https://www.nuget.org/packages/TamamoToolkit) package to version 2.2.0
